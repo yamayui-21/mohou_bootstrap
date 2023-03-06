@@ -1,0 +1,93 @@
+.slide-items {
+  overflow-x: hidden;
+}
+
+.slide-img-1 {
+  margin-top: 2rem !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url("../images/img_code.png");
+  background-size: cover;
+}
+
+.slide-img-2 {
+  margin-top: 2rem !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url("../images/img_computer.png");
+  background-size: cover;
+}
+
+.slide-img-3 {
+  margin-top: 2rem !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url("../images/img_key.png");
+  background-size: cover;
+}
+
+.slide-img-4 {
+  margin-top: 2rem !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url("../images/img_phone.png");
+  background-size: cover;
+}
+
+.slide-img-5 {
+  margin-top: 2rem !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url("../images/logo_jquery.png");
+  background-size: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slick-dots {
+  position: initial;
+}
+.slick-dots li {
+  margin: 0;
+}
+.slick-dots li.slick-active button {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: #119ddd;
+  border-radius: 50%;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+  cursor: pointer;
+  color: transparent;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid #119ddd;
+  /* border: 0; */
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:before {
+  font-family: none;
+  font-size: 0;
+}/*# sourceMappingURL=slick.css.map */

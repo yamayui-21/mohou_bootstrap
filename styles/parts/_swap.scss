@@ -1,0 +1,41 @@
+.hidden {
+  animation: zoom-out 0.8s !important;
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  
+}
+.zoom_in{
+  animation: zoom-in 0.8s !important;
+}
+.zoom_out{
+  animation: zoom-out 0.8s !important;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
